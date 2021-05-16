@@ -8,9 +8,13 @@
 4. Go to your project `.git/hooks` folder
    1. Download a copy of the plantuml.pre-commit.sh
       ```
-      curl -fsSL https://github.com/weikangchia/pre-commit-hooks-plantuml/plantuml.pre-commit.sh
+      curl -O https://raw.githubusercontent.com/weikangchia/pre-commit-hooks-plantuml/main/plantuml.pre-commit.sh
       ```
-   2. Open your `pre-commit` file and add the following code to run plantuml.pre-commit.sh
+   2. Make the file executable
+      ```
+      chmod +x plantuml.pre-commit.sh
+      ```
+   3. Open your `pre-commit` file and add the following code to run plantuml.pre-commit.sh
       ```
       #!/bin/bash
       
