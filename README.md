@@ -28,3 +28,14 @@
 During the commit of any PlantUML file (file with extension: .puml), if we
 - add or update a PlantUML file, a PlantUML image will be generated based on the file and commit
 - delete a PlantUML file, existing PlantUML image will be deleted together in the commit
+
+## License
+
+Distributed under the MIT License. See [LICENSE](license) for more information.
+
+## Contributing
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+## Contact
+
+Wei Kang - weikangchia[@]gmail.com
